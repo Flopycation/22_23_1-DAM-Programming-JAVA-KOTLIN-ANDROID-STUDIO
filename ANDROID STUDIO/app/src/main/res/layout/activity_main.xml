@@ -33,19 +33,25 @@
         android:id="@+id/checkBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CheckBox" />
+        android:text="CheckBox"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="348dp" />
 
     <CheckBox
         android:id="@+id/checkBox2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CheckBox" />
+        android:text="CheckBox"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="421dp" />
 
     <CheckedTextView
         android:id="@+id/checkedTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CheckedTextView" />
+        android:text="CheckedTextView"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="605dp" />
 
     <CheckedTextView
         android:id="@+id/checkedTextView2"
