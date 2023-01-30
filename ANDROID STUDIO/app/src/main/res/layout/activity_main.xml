@@ -63,8 +63,8 @@
         android:id="@+id/checkBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
-        android:layout_marginEnd="64dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="56dp"
         android:text="¿Tiene carnet?"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
@@ -73,7 +73,7 @@
         android:id="@+id/checkBox2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="72dp"
+        android:layout_marginEnd="16dp"
         android:layout_marginBottom="44dp"
         android:text="¿Es mayor de edad?"
         app:layout_constraintBottom_toTopOf="@+id/button"
@@ -83,8 +83,8 @@
         android:id="@+id/radioButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="76dp"
         android:text="Profesor"
         android:textColorHint="#000000"
         android:textColorLink="#E91E63"
@@ -95,11 +95,10 @@
         android:id="@+id/radioButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
         android:layout_marginBottom="44dp"
         android:text="Alumno"
         app:layout_constraintBottom_toTopOf="@+id/button"
-        app:layout_constraintEnd_toStartOf="@+id/checkBox2"
-        app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
