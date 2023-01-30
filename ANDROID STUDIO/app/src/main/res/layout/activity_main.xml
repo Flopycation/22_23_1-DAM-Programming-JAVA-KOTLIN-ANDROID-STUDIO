@@ -37,7 +37,7 @@
         android:id="@+id/checkBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="68dp"
+        android:layout_marginEnd="76dp"
         android:text="CheckBox"
         app:layout_constraintEnd_toEndOf="parent"
         tools:layout_editor_absoluteY="231dp" />
@@ -47,7 +47,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="CheckBox"
-        tools:layout_editor_absoluteX="249dp"
+        tools:layout_editor_absoluteX="241dp"
         tools:layout_editor_absoluteY="302dp" />
 
     <RadioButton
@@ -64,7 +64,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Alumno"
-        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteX="78dp"
         tools:layout_editor_absoluteY="302dp" />
 
     <Button
@@ -72,8 +72,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="LOGIN"
-        tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="421dp" />
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="391dp" />
 
     <Button
         android:id="@+id/button2"
@@ -81,7 +81,7 @@
         android:layout_height="wrap_content"
         android:text="RESTAURAR LOS DATOS"
         tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="490dp" />
+        tools:layout_editor_absoluteY="458dp" />
 
     <Button
         android:id="@+id/button3"
@@ -89,6 +89,6 @@
         android:layout_height="wrap_content"
         android:text="GENERAR PASSWORD"
         tools:layout_editor_absoluteX="109dp"
-        tools:layout_editor_absoluteY="565dp" />
+        tools:layout_editor_absoluteY="525dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
