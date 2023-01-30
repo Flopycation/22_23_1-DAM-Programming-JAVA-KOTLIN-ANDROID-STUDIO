@@ -65,7 +65,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
         android:layout_marginEnd="64dp"
-        android:text="CheckBox"
+        android:text="¿Tiene carnet?"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
 
@@ -75,7 +75,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="72dp"
         android:layout_marginBottom="44dp"
-        android:text="CheckBox"
+        android:text="¿Es mayor de edad?"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -86,6 +86,8 @@
         android:layout_marginStart="60dp"
         android:layout_marginTop="52dp"
         android:text="Profesor"
+        android:textColorHint="#000000"
+        android:textColorLink="#E91E63"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
 
@@ -117,7 +119,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="385dp"
-        android:background="#FFFFFF"
+        android:background="#00FFFFFF"
         android:text="RESTAURAR LOS DATOS"
         android:textColor="#673AB7"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -129,7 +131,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="19dp"
+        android:background="#00FFFFFF"
         android:text="GENERAR PASSWORD"
+        android:textColor="#673AB7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2" />
