@@ -6,35 +6,26 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <EditText
-        android:id="@+id/editTextTextEmailAddress"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textEmailAddress"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="114dp" />
-
-    <com.google.android.material.textfield.TextInputLayout
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="hint" />
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <EditText
-        android:id="@+id/editTextTextPassword"
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPassword"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="255dp" />
+        android:hint="Correo electronico"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="47dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="hint"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="hint"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="137dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
