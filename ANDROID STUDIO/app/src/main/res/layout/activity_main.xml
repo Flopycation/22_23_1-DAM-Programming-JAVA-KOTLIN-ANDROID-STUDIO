@@ -11,82 +11,84 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Correo electronico"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="47dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="DNI"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="92dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="76dp" />
 
-    <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/editText2"
-        android:layout_width="match_parent"
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:hint="hint"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="137dp" />
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="133dp" />
 
     <CheckBox
         android:id="@+id/checkBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="68dp"
         android:text="CheckBox"
-        tools:layout_editor_absoluteX="111dp"
-        tools:layout_editor_absoluteY="348dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="231dp" />
 
     <CheckBox
         android:id="@+id/checkBox2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="CheckBox"
-        tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="421dp" />
-
-    <CheckedTextView
-        android:id="@+id/checkedTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="CheckedTextView"
-        tools:layout_editor_absoluteX="130dp"
-        tools:layout_editor_absoluteY="605dp" />
-
-    <CheckedTextView
-        android:id="@+id/checkedTextView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="CheckedTextView" />
+        tools:layout_editor_absoluteX="249dp"
+        tools:layout_editor_absoluteY="302dp" />
 
     <RadioButton
         android:id="@+id/radioButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="RadioButton" />
+        android:text="Profesor"
+        app:layout_constraintEnd_toStartOf="@+id/checkBox"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="231dp" />
 
     <RadioButton
         android:id="@+id/radioButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="RadioButton" />
+        android:text="Alumno"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="302dp" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="LOGIN"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="421dp" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="RESTAURAR LOS DATOS"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="490dp" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="GENERAR PASSWORD"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="565dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
