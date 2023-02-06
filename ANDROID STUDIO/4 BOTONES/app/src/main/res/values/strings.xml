@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">4 BOTONES</string>
+
+    <array name="Lista_colores">
+
+        <item>Negro</item>
+        <item>Verde</item>
+        <item>Rojo</item>
+        <item>Morado</item>
+
+    </array>
+</resources>
