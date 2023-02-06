@@ -1,4 +1,4 @@
-package com.example.a4botones
+package com.example.myapplication
 
 import org.junit.Test
 

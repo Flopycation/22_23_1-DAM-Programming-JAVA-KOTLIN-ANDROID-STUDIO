@@ -1,12 +1,10 @@
 <resources>
-    <string name="app_name">4 BOTONES</string>
+    <string name="app_name">My Application</string>
 
-    <array name="Lista_colores">
-
+    <array name="lista_colores">
         <item>Negro</item>
         <item>Verde</item>
         <item>Rojo</item>
         <item>Morado</item>
-
     </array>
 </resources>
