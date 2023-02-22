@@ -8,9 +8,18 @@ import android.webkit.WebView
 import android.webkit.WebViewClient
 
 class MainActivity : AppCompatActivity() {
+
+    companion object {
+        const val WEB_PAGE_URL = "https://www.google.es/"
+    }
+
+    private lateinit var visor: WebView
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        visor = findViewById(R.id.webView)
 
         val visor = findViewById<WebView>(R.id.webView)
 
@@ -25,7 +34,7 @@ class MainActivity : AppCompatActivity() {
         val settings:WebSettings = visor.settings
         settings.javaScriptEnabled = true
 
-        visor.loadUrl("https://www.google.com/")
+        visor.loadUrl("https://www.google.es")
 
     }
 }
