@@ -19,9 +19,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        visor = findViewById(R.id.webView)
+        visor = findViewById(R.id.WebView)
 
-        val visor = findViewById<WebView>(R.id.webView)
+        val visor = findViewById<WebView>(R.id.WebView)
 
         visor.webChromeClient = object : WebChromeClient(){
 

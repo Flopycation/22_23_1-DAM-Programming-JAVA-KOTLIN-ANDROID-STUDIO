@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Examen 2023 Feb</string>
+
+    <array name="array">
+        <item>Piedra</item>
+        <item>Tijera</item>
+        <item>Papel</item>
+    </array>
+</resources>
